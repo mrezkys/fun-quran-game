@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6EBF7E12A3F80500087C317 /* FunQuranGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF7E02A3F80500087C317 /* FunQuranGameApp.swift */; };
+		A6EBF7E32A3F80500087C317 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF7E22A3F80500087C317 /* ContentView.swift */; };
+		A6EBF7E52A3F80510087C317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EBF7E42A3F80510087C317 /* Assets.xcassets */; };
+		A6EBF7E82A3F80510087C317 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EBF7E72A3F80510087C317 /* Preview Assets.xcassets */; };
+		A6EBF7F22A3F80510087C317 /* FunQuranGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF7F12A3F80510087C317 /* FunQuranGameTests.swift */; };
+		A6EBF7FC2A3F80510087C317 /* FunQuranGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF7FB2A3F80510087C317 /* FunQuranGameUITests.swift */; };
+		A6EBF7FE2A3F80510087C317 /* FunQuranGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF7FD2A3F80510087C317 /* FunQuranGameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6EBF7EE2A3F80510087C317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6EBF7D52A3F80500087C317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6EBF7DC2A3F80500087C317;
+			remoteInfo = FunQuranGame;
+		};
+		A6EBF7F82A3F80510087C317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6EBF7D52A3F80500087C317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6EBF7DC2A3F80500087C317;
+			remoteInfo = FunQuranGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6EBF7DD2A3F80500087C317 /* FunQuranGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunQuranGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EBF7E02A3F80500087C317 /* FunQuranGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunQuranGameApp.swift; sourceTree = "<group>"; };
+		A6EBF7E22A3F80500087C317 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6EBF7E42A3F80510087C317 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6EBF7E72A3F80510087C317 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6EBF7ED2A3F80510087C317 /* FunQuranGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunQuranGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EBF7F12A3F80510087C317 /* FunQuranGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunQuranGameTests.swift; sourceTree = "<group>"; };
+		A6EBF7F72A3F80510087C317 /* FunQuranGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunQuranGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6EBF7FB2A3F80510087C317 /* FunQuranGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunQuranGameUITests.swift; sourceTree = "<group>"; };
+		A6EBF7FD2A3F80510087C317 /* FunQuranGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunQuranGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6EBF7DA2A3F80500087C317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EBF7EA2A3F80510087C317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EBF7F42A3F80510087C317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6EBF7D42A3F80500087C317 = {
+			isa = PBXGroup;
+			children = (
+				A6EBF7DF2A3F80500087C317 /* FunQuranGame */,
+				A6EBF7F02A3F80510087C317 /* FunQuranGameTests */,
+				A6EBF7FA2A3F80510087C317 /* FunQuranGameUITests */,
+				A6EBF7DE2A3F80500087C317 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6EBF7DE2A3F80500087C317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBF7DD2A3F80500087C317 /* FunQuranGame.app */,
+				A6EBF7ED2A3F80510087C317 /* FunQuranGameTests.xctest */,
+				A6EBF7F72A3F80510087C317 /* FunQuranGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6EBF7DF2A3F80500087C317 /* FunQuranGame */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBF7E02A3F80500087C317 /* FunQuranGameApp.swift */,
+				A6EBF7E22A3F80500087C317 /* ContentView.swift */,
+				A6EBF7E42A3F80510087C317 /* Assets.xcassets */,
+				A6EBF7E62A3F80510087C317 /* Preview Content */,
+			);
+			path = FunQuranGame;
+			sourceTree = "<group>";
+		};
+		A6EBF7E62A3F80510087C317 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBF7E72A3F80510087C317 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6EBF7F02A3F80510087C317 /* FunQuranGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBF7F12A3F80510087C317 /* FunQuranGameTests.swift */,
+			);
+			path = FunQuranGameTests;
+			sourceTree = "<group>";
+		};
+		A6EBF7FA2A3F80510087C317 /* FunQuranGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBF7FB2A3F80510087C317 /* FunQuranGameUITests.swift */,
+				A6EBF7FD2A3F80510087C317 /* FunQuranGameUITestsLaunchTests.swift */,
+			);
+			path = FunQuranGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6EBF7DC2A3F80500087C317 /* FunQuranGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EBF8012A3F80510087C317 /* Build configuration list for PBXNativeTarget "FunQuranGame" */;
+			buildPhases = (
+				A6EBF7D92A3F80500087C317 /* Sources */,
+				A6EBF7DA2A3F80500087C317 /* Frameworks */,
+				A6EBF7DB2A3F80500087C317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunQuranGame;
+			productName = FunQuranGame;
+			productReference = A6EBF7DD2A3F80500087C317 /* FunQuranGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6EBF7EC2A3F80510087C317 /* FunQuranGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EBF8042A3F80510087C317 /* Build configuration list for PBXNativeTarget "FunQuranGameTests" */;
+			buildPhases = (
+				A6EBF7E92A3F80510087C317 /* Sources */,
+				A6EBF7EA2A3F80510087C317 /* Frameworks */,
+				A6EBF7EB2A3F80510087C317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6EBF7EF2A3F80510087C317 /* PBXTargetDependency */,
+			);
+			name = FunQuranGameTests;
+			productName = FunQuranGameTests;
+			productReference = A6EBF7ED2A3F80510087C317 /* FunQuranGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6EBF7F62A3F80510087C317 /* FunQuranGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6EBF8072A3F80510087C317 /* Build configuration list for PBXNativeTarget "FunQuranGameUITests" */;
+			buildPhases = (
+				A6EBF7F32A3F80510087C317 /* Sources */,
+				A6EBF7F42A3F80510087C317 /* Frameworks */,
+				A6EBF7F52A3F80510087C317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6EBF7F92A3F80510087C317 /* PBXTargetDependency */,
+			);
+			name = FunQuranGameUITests;
+			productName = FunQuranGameUITests;
+			productReference = A6EBF7F72A3F80510087C317 /* FunQuranGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6EBF7D52A3F80500087C317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A6EBF7DC2A3F80500087C317 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A6EBF7EC2A3F80510087C317 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A6EBF7DC2A3F80500087C317;
+					};
+					A6EBF7F62A3F80510087C317 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A6EBF7DC2A3F80500087C317;
+					};
+				};
+			};
+			buildConfigurationList = A6EBF7D82A3F80500087C317 /* Build configuration list for PBXProject "FunQuranGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6EBF7D42A3F80500087C317;
+			productRefGroup = A6EBF7DE2A3F80500087C317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6EBF7DC2A3F80500087C317 /* FunQuranGame */,
+				A6EBF7EC2A3F80510087C317 /* FunQuranGameTests */,
+				A6EBF7F62A3F80510087C317 /* FunQuranGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6EBF7DB2A3F80500087C317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EBF7E82A3F80510087C317 /* Preview Assets.xcassets in Resources */,
+				A6EBF7E52A3F80510087C317 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EBF7EB2A3F80510087C317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EBF7F52A3F80510087C317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6EBF7D92A3F80500087C317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EBF7E32A3F80500087C317 /* ContentView.swift in Sources */,
+				A6EBF7E12A3F80500087C317 /* FunQuranGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EBF7E92A3F80510087C317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EBF7F22A3F80510087C317 /* FunQuranGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6EBF7F32A3F80510087C317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6EBF7FE2A3F80510087C317 /* FunQuranGameUITestsLaunchTests.swift in Sources */,
+				A6EBF7FC2A3F80510087C317 /* FunQuranGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6EBF7EF2A3F80510087C317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6EBF7DC2A3F80500087C317 /* FunQuranGame */;
+			targetProxy = A6EBF7EE2A3F80510087C317 /* PBXContainerItemProxy */;
+		};
+		A6EBF7F92A3F80510087C317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6EBF7DC2A3F80500087C317 /* FunQuranGame */;
+			targetProxy = A6EBF7F82A3F80510087C317 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6EBF7FF2A3F80510087C317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6EBF8002A3F80510087C317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6EBF8022A3F80510087C317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunQuranGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LSQ3C9W8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrezkys.FunQuranGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6EBF8032A3F80510087C317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunQuranGame/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LSQ3C9W8U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrezkys.FunQuranGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6EBF8052A3F80510087C317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LSQ3C9W8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrezkys.FunQuranGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunQuranGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FunQuranGame";
+			};
+			name = Debug;
+		};
+		A6EBF8062A3F80510087C317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LSQ3C9W8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrezkys.FunQuranGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunQuranGame.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FunQuranGame";
+			};
+			name = Release;
+		};
+		A6EBF8082A3F80510087C317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LSQ3C9W8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrezkys.FunQuranGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FunQuranGame;
+			};
+			name = Debug;
+		};
+		A6EBF8092A3F80510087C317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LSQ3C9W8U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrezkys.FunQuranGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FunQuranGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6EBF7D82A3F80500087C317 /* Build configuration list for PBXProject "FunQuranGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EBF7FF2A3F80510087C317 /* Debug */,
+				A6EBF8002A3F80510087C317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EBF8012A3F80510087C317 /* Build configuration list for PBXNativeTarget "FunQuranGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EBF8022A3F80510087C317 /* Debug */,
+				A6EBF8032A3F80510087C317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EBF8042A3F80510087C317 /* Build configuration list for PBXNativeTarget "FunQuranGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EBF8052A3F80510087C317 /* Debug */,
+				A6EBF8062A3F80510087C317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6EBF8072A3F80510087C317 /* Build configuration list for PBXNativeTarget "FunQuranGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6EBF8082A3F80510087C317 /* Debug */,
+				A6EBF8092A3F80510087C317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6EBF7D52A3F80500087C317 /* Project object */;
+}
