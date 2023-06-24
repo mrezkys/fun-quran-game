@@ -25,7 +25,7 @@ struct GuessSurahView: View {
                 } else if (vm.viewState == .loaded){
                     Spacer().frame(height: 32)
                     VStack(spacing: 0){
-                        Text("Potongan ayat di atas terletak pada Surah")
+                        Text("The ayah below is located in the Surah?")
                             .font(.footnote)
                             .foregroundColor(.black.opacity(0.7))
                         
@@ -80,7 +80,7 @@ struct GuessSurahView: View {
                         Button{
                             vm.nextQuestion()
                         } label: {
-                            Text("Soal Selanjutnya")
+                            Text("Next Question")
                                 .font(.custom("Poppins-Bold", size: 14))
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 20)

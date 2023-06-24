@@ -17,7 +17,7 @@ struct ConnectAyahView: View {
                 } else if (vm.viewState == .loaded){
                     Spacer().frame(height: 32)
                     VStack(spacing: 0){
-                        Text("Potongan ayat di atas terletak pada Surah")
+                        Text("The continuation of the ayah below is?")
                             .font(.footnote)
                             .foregroundColor(.black.opacity(0.7))
                         
@@ -72,7 +72,7 @@ struct ConnectAyahView: View {
                         Button{
                             vm.nextQuestion()
                         } label: {
-                            Text("Soal Selanjutnya")
+                            Text("Next Question")
                                 .font(.custom("Poppins-Bold", size: 14))
                                 .frame(maxWidth: .infinity)
                                 .padding(.vertical, 20)

@@ -45,8 +45,8 @@ class GuessSurahViewModel: ObservableObject {
     func answer(_ index: Int) {
         if(gameState == .empty){
             
-                selectedAnswerIndex = index
-                gameState = (index == selectedSurahIndex) ? .win : .lose
+            selectedAnswerIndex = index
+            gameState = (index == selectedSurahIndex) ? .win : .lose
         }
     }
     

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A6338EEA2A45958D002FBF6E /* ConnectAyahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6338EE92A45958D002FBF6E /* ConnectAyahView.swift */; };
-		A6773E2F2A41A67800758F89 /* 1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6773E2E2A41A67800758F89 /* 1View.swift */; };
 		A6EBF7E12A3F80500087C317 /* FunQuranGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF7E02A3F80500087C317 /* FunQuranGameApp.swift */; };
 		A6EBF7E32A3F80500087C317 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF7E22A3F80500087C317 /* ContentView.swift */; };
 		A6EBF7E52A3F80510087C317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EBF7E42A3F80510087C317 /* Assets.xcassets */; };
@@ -53,7 +52,6 @@
 
 /* Begin PBXFileReference section */
 		A6338EE92A45958D002FBF6E /* ConnectAyahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectAyahView.swift; sourceTree = "<group>"; };
-		A6773E2E2A41A67800758F89 /* 1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1View.swift; sourceTree = "<group>"; };
 		A6EBF7DD2A3F80500087C317 /* FunQuranGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunQuranGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EBF7E02A3F80500087C317 /* FunQuranGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunQuranGameApp.swift; sourceTree = "<group>"; };
 		A6EBF7E22A3F80500087C317 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -215,7 +213,6 @@
 			isa = PBXGroup;
 			children = (
 				A6EBF8272A40B5B80087C317 /* GuessSurahView.swift */,
-				A6773E2E2A41A67800758F89 /* 1View.swift */,
 				A6338EE92A45958D002FBF6E /* ConnectAyahView.swift */,
 			);
 			path = View;
@@ -388,7 +385,6 @@
 				A6EBF8252A4003FA0087C317 /* GuessSurahQuestionModel.swift in Sources */,
 				A6EBF8202A3F8B800087C317 /* GuessSurahViewModel.swift in Sources */,
 				A6EBF8232A3F91970087C317 /* ApiResponseModel.swift in Sources */,
-				A6773E2F2A41A67800758F89 /* 1View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
