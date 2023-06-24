@@ -13,8 +13,8 @@ class SurahService : ObservableObject{
         self.service = service
     }
     
-    func fetchSurah(_ id: Int, completion: @escaping (Result<SurahModel, APIError>) -> Void) {
+    func fetchSurah(_ id: Int, completion: @escaping (Result<APIResponse<SurahModel>, APIError>) -> Void) {
         let url = URL(string: "http://api.alquran.cloud/v1/surah/\(id)")
-        service.fetch(SurahModel.self, url: url, completion: completion)
+        service.fetch(APIResponse<SurahModel>.self, url: url, completion: completion)
     }
 }

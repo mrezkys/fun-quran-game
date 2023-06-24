@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6338EEA2A45958D002FBF6E /* ConnectAyahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6338EE92A45958D002FBF6E /* ConnectAyahView.swift */; };
+		A6773E2F2A41A67800758F89 /* 1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6773E2E2A41A67800758F89 /* 1View.swift */; };
 		A6EBF7E12A3F80500087C317 /* FunQuranGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF7E02A3F80500087C317 /* FunQuranGameApp.swift */; };
 		A6EBF7E32A3F80500087C317 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF7E22A3F80500087C317 /* ContentView.swift */; };
 		A6EBF7E52A3F80510087C317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6EBF7E42A3F80510087C317 /* Assets.xcassets */; };
@@ -14,6 +16,22 @@
 		A6EBF7F22A3F80510087C317 /* FunQuranGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF7F12A3F80510087C317 /* FunQuranGameTests.swift */; };
 		A6EBF7FC2A3F80510087C317 /* FunQuranGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF7FB2A3F80510087C317 /* FunQuranGameUITests.swift */; };
 		A6EBF7FE2A3F80510087C317 /* FunQuranGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF7FD2A3F80510087C317 /* FunQuranGameUITestsLaunchTests.swift */; };
+		A6EBF80C2A3F80D70087C317 /* SurahModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF80B2A3F80D70087C317 /* SurahModel.swift */; };
+		A6EBF80F2A3F81750087C317 /* surahs.json in Resources */ = {isa = PBXBuildFile; fileRef = A6EBF80E2A3F81750087C317 /* surahs.json */; };
+		A6EBF8112A3F81DA0087C317 /* AyahModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF8102A3F81DA0087C317 /* AyahModel.swift */; };
+		A6EBF8162A3F84E30087C317 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF8152A3F84E30087C317 /* APIService.swift */; };
+		A6EBF8192A3F85670087C317 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF8182A3F85670087C317 /* ApiError.swift */; };
+		A6EBF81B2A3F88240087C317 /* SurahService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF81A2A3F88240087C317 /* SurahService.swift */; };
+		A6EBF81D2A3F88720087C317 /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF81C2A3F88720087C317 /* APIServiceProtocol.swift */; };
+		A6EBF8202A3F8B800087C317 /* GuessSurahViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF81F2A3F8B800087C317 /* GuessSurahViewModel.swift */; };
+		A6EBF8232A3F91970087C317 /* ApiResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF8222A3F91970087C317 /* ApiResponseModel.swift */; };
+		A6EBF8252A4003FA0087C317 /* GuessSurahQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF8242A4003FA0087C317 /* GuessSurahQuestionModel.swift */; };
+		A6EBF8282A40B5B80087C317 /* GuessSurahView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF8272A40B5B80087C317 /* GuessSurahView.swift */; };
+		A6EBF82A2A40B6770087C317 /* ConnectAyahQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF8292A40B6770087C317 /* ConnectAyahQuestionModel.swift */; };
+		A6EBF82C2A40BB340087C317 /* ConnectAyahViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EBF82B2A40BB340087C317 /* ConnectAyahViewModel.swift */; };
+		A6EBF8322A414B370087C317 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6EBF82F2A414B370087C317 /* Poppins-Bold.ttf */; };
+		A6EBF8332A414B370087C317 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6EBF8302A414B370087C317 /* Poppins-Regular.ttf */; };
+		A6EBF8342A414B370087C317 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6EBF8312A414B370087C317 /* Poppins-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A6338EE92A45958D002FBF6E /* ConnectAyahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectAyahView.swift; sourceTree = "<group>"; };
+		A6773E2E2A41A67800758F89 /* 1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1View.swift; sourceTree = "<group>"; };
 		A6EBF7DD2A3F80500087C317 /* FunQuranGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunQuranGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EBF7E02A3F80500087C317 /* FunQuranGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunQuranGameApp.swift; sourceTree = "<group>"; };
 		A6EBF7E22A3F80500087C317 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +64,23 @@
 		A6EBF7F72A3F80510087C317 /* FunQuranGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunQuranGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6EBF7FB2A3F80510087C317 /* FunQuranGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunQuranGameUITests.swift; sourceTree = "<group>"; };
 		A6EBF7FD2A3F80510087C317 /* FunQuranGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunQuranGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6EBF80B2A3F80D70087C317 /* SurahModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahModel.swift; sourceTree = "<group>"; };
+		A6EBF80E2A3F81750087C317 /* surahs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = surahs.json; sourceTree = "<group>"; };
+		A6EBF8102A3F81DA0087C317 /* AyahModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyahModel.swift; sourceTree = "<group>"; };
+		A6EBF8152A3F84E30087C317 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		A6EBF8182A3F85670087C317 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		A6EBF81A2A3F88240087C317 /* SurahService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurahService.swift; sourceTree = "<group>"; };
+		A6EBF81C2A3F88720087C317 /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
+		A6EBF81F2A3F8B800087C317 /* GuessSurahViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessSurahViewModel.swift; sourceTree = "<group>"; };
+		A6EBF8212A3F8F520087C317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A6EBF8222A3F91970087C317 /* ApiResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponseModel.swift; sourceTree = "<group>"; };
+		A6EBF8242A4003FA0087C317 /* GuessSurahQuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessSurahQuestionModel.swift; sourceTree = "<group>"; };
+		A6EBF8272A40B5B80087C317 /* GuessSurahView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessSurahView.swift; sourceTree = "<group>"; };
+		A6EBF8292A40B6770087C317 /* ConnectAyahQuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectAyahQuestionModel.swift; sourceTree = "<group>"; };
+		A6EBF82B2A40BB340087C317 /* ConnectAyahViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectAyahViewModel.swift; sourceTree = "<group>"; };
+		A6EBF82F2A414B370087C317 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		A6EBF8302A414B370087C317 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		A6EBF8312A414B370087C317 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +131,18 @@
 		A6EBF7DF2A3F80500087C317 /* FunQuranGame */ = {
 			isa = PBXGroup;
 			children = (
+				A6EBF8212A3F8F520087C317 /* Info.plist */,
+				A6EBF82D2A414AE50087C317 /* Resources */,
+				A6EBF8262A40B5A60087C317 /* View */,
+				A6EBF81E2A3F8B280087C317 /* ViewModel */,
+				A6EBF8172A3F85520087C317 /* Helper */,
+				A6EBF8122A3F848A0087C317 /* Network */,
+				A6EBF80A2A3F80CA0087C317 /* Model */,
 				A6EBF7E02A3F80500087C317 /* FunQuranGameApp.swift */,
 				A6EBF7E22A3F80500087C317 /* ContentView.swift */,
 				A6EBF7E42A3F80510087C317 /* Assets.xcassets */,
 				A6EBF7E62A3F80510087C317 /* Preview Content */,
+				A6EBF80E2A3F81750087C317 /* surahs.json */,
 			);
 			path = FunQuranGame;
 			sourceTree = "<group>";
@@ -125,6 +170,73 @@
 				A6EBF7FD2A3F80510087C317 /* FunQuranGameUITestsLaunchTests.swift */,
 			);
 			path = FunQuranGameUITests;
+			sourceTree = "<group>";
+		};
+		A6EBF80A2A3F80CA0087C317 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBF80B2A3F80D70087C317 /* SurahModel.swift */,
+				A6EBF8102A3F81DA0087C317 /* AyahModel.swift */,
+				A6EBF8222A3F91970087C317 /* ApiResponseModel.swift */,
+				A6EBF8242A4003FA0087C317 /* GuessSurahQuestionModel.swift */,
+				A6EBF8292A40B6770087C317 /* ConnectAyahQuestionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A6EBF8122A3F848A0087C317 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBF8152A3F84E30087C317 /* APIService.swift */,
+				A6EBF81A2A3F88240087C317 /* SurahService.swift */,
+				A6EBF81C2A3F88720087C317 /* APIServiceProtocol.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A6EBF8172A3F85520087C317 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBF8182A3F85670087C317 /* ApiError.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A6EBF81E2A3F8B280087C317 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBF81F2A3F8B800087C317 /* GuessSurahViewModel.swift */,
+				A6EBF82B2A40BB340087C317 /* ConnectAyahViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A6EBF8262A40B5A60087C317 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBF8272A40B5B80087C317 /* GuessSurahView.swift */,
+				A6773E2E2A41A67800758F89 /* 1View.swift */,
+				A6338EE92A45958D002FBF6E /* ConnectAyahView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A6EBF82D2A414AE50087C317 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBF82E2A414AF10087C317 /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6EBF82E2A414AF10087C317 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A6EBF82F2A414B370087C317 /* Poppins-Bold.ttf */,
+				A6EBF8302A414B370087C317 /* Poppins-Regular.ttf */,
+				A6EBF8312A414B370087C317 /* Poppins-SemiBold.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +343,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6EBF80F2A3F81750087C317 /* surahs.json in Resources */,
 				A6EBF7E82A3F80510087C317 /* Preview Assets.xcassets in Resources */,
 				A6EBF7E52A3F80510087C317 /* Assets.xcassets in Resources */,
+				A6EBF8342A414B370087C317 /* Poppins-SemiBold.ttf in Resources */,
+				A6EBF8322A414B370087C317 /* Poppins-Bold.ttf in Resources */,
+				A6EBF8332A414B370087C317 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +373,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6EBF82A2A40B6770087C317 /* ConnectAyahQuestionModel.swift in Sources */,
+				A6EBF8282A40B5B80087C317 /* GuessSurahView.swift in Sources */,
+				A6EBF81D2A3F88720087C317 /* APIServiceProtocol.swift in Sources */,
 				A6EBF7E32A3F80500087C317 /* ContentView.swift in Sources */,
+				A6EBF80C2A3F80D70087C317 /* SurahModel.swift in Sources */,
+				A6EBF81B2A3F88240087C317 /* SurahService.swift in Sources */,
+				A6EBF82C2A40BB340087C317 /* ConnectAyahViewModel.swift in Sources */,
+				A6EBF8112A3F81DA0087C317 /* AyahModel.swift in Sources */,
+				A6338EEA2A45958D002FBF6E /* ConnectAyahView.swift in Sources */,
+				A6EBF8162A3F84E30087C317 /* APIService.swift in Sources */,
 				A6EBF7E12A3F80500087C317 /* FunQuranGameApp.swift in Sources */,
+				A6EBF8192A3F85670087C317 /* ApiError.swift in Sources */,
+				A6EBF8252A4003FA0087C317 /* GuessSurahQuestionModel.swift in Sources */,
+				A6EBF8202A3F8B800087C317 /* GuessSurahViewModel.swift in Sources */,
+				A6EBF8232A3F91970087C317 /* ApiResponseModel.swift in Sources */,
+				A6773E2F2A41A67800758F89 /* 1View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +550,7 @@
 				DEVELOPMENT_TEAM = 5LSQ3C9W8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FunQuranGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +580,7 @@
 				DEVELOPMENT_TEAM = 5LSQ3C9W8U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FunQuranGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
