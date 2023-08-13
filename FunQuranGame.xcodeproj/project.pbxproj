@@ -31,6 +31,7 @@
 		A6EBF8322A414B370087C317 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6EBF82F2A414B370087C317 /* Poppins-Bold.ttf */; };
 		A6EBF8332A414B370087C317 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6EBF8302A414B370087C317 /* Poppins-Regular.ttf */; };
 		A6EBF8342A414B370087C317 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A6EBF8312A414B370087C317 /* Poppins-SemiBold.ttf */; };
+		A6FE53FA2A88AAE800AD0A29 /* shots.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A6FE53F92A88AAE800AD0A29 /* shots.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		A6EBF82F2A414B370087C317 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		A6EBF8302A414B370087C317 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		A6EBF8312A414B370087C317 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		A6FE53F92A88AAE800AD0A29 /* shots.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shots.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		A6EBF7DF2A3F80500087C317 /* FunQuranGame */ = {
 			isa = PBXGroup;
 			children = (
+				A6FE53F92A88AAE800AD0A29 /* shots.jpg */,
 				A6EBF8212A3F8F520087C317 /* Info.plist */,
 				A6EBF82D2A414AE50087C317 /* Resources */,
 				A6EBF8262A40B5A60087C317 /* View */,
@@ -344,6 +347,7 @@
 				A6EBF7E82A3F80510087C317 /* Preview Assets.xcassets in Resources */,
 				A6EBF7E52A3F80510087C317 /* Assets.xcassets in Resources */,
 				A6EBF8342A414B370087C317 /* Poppins-SemiBold.ttf in Resources */,
+				A6FE53FA2A88AAE800AD0A29 /* shots.jpg in Resources */,
 				A6EBF8322A414B370087C317 /* Poppins-Bold.ttf in Resources */,
 				A6EBF8332A414B370087C317 /* Poppins-Regular.ttf in Resources */,
 			);
